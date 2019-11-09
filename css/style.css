@@ -1,0 +1,250 @@
+
+<!-- Style Start header file-->
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.subclass{
+    width:80%;
+    margin: auto;
+}
+
+.header{
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+
+
+
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.logoarea{
+    width: 40%;
+    float: left;
+
+}
+.logoarea img{
+    width: 170px;
+    margin-top: 17px;
+    margin-right: 10px
+
+}
+.loginarea{
+    width: 60%;
+    float: left;
+
+}
+.loginarea form{
+    float: right;
+
+}
+.loginarea label{
+    display: block;
+    margin:1px;
+}
+.loginarea input{
+    display: block;
+}
+.loginarea .email , .password , .login{
+
+    float:left;
+    margin-right: 10px;
+
+}
+.loginarea label{
+    font-size: 14px;
+    font-weight: 300%;
+
+}
+.loginarea input[type="text"]{
+    background: 1px solid black;
+}
+
+.loginarea input[type="password"]{
+    background: 1px solid black;
+}
+.loginarea .login{
+    margin-right: 0;
+}
+
+.loginarea .password a{
+    text-decoration: none;
+    color: #fff;
+}
+.loginarea .password a:hover{
+    text-decoration: underline;
+}
+.loginarea .login {
+    margin-top: 20px;
+
+    border: 1px solid  #3B5998;
+}
+.loginarea .login:hover{
+    background:  #3B5998;
+}
+<!-- Style End header file-->
+
+/* start design SignUp */
+
+ .headerr
+{
+    padding: 20px 0;
+
+
+}
+
+.leftarea::after{
+    content: '';
+    clear: both;
+    display: block;
+    color: #606770;
+}
+.leftarea{
+    width: 55%;
+    float: left;
+}
+.rightarea{
+    width: 45%;
+    float: left;
+}
+.leftarea p{
+    font-size: 19px;
+    font-weight: 600;
+    margin:20px;
+
+}
+.leftarea img{
+  width:100%;
+    margin-top:40px;
+}
+
+.rightarea h1{
+    margin: 0;
+    font-size:40px;
+    color: black;
+}
+
+.rightarea h4{
+   margin-top:5px;
+    color: #1d2129;
+    font-weight: 400;
+}
+
+.rightarea input[type="text"]{
+    width:98%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin:3px;
+}
+.rightarea  input[type="password"]{
+    width: 98%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.firstname{
+    width: 47%;
+    float: left;
+    margin-right: 4%;
+
+}
+.surename{
+    width: 47%;
+    float: left
+}
+.fullname{
+    overflow: hidden;
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h3{
+    margin: 3px;
+    font-weight: 400;
+}
+.birthday select{
+    border: 1px solid black;
+    color: black;
+    float: left;
+    padding: 3px;
+
+}
+.gender{
+    overflow: hidden;
+}
+.gender h4{
+    font-size:20px;
+    font-weight: 400;
+    margin: 2px;;
+
+}
+.gender label{
+    font-size: 16px;
+    margin-top:2px;
+
+}
+.page{
+    font-size: 15px;
+    width:100%;
+}
+.page a {
+    text-decoration: none;
+}
+.page a:hover{
+    text-decoration: underline;
+}
+ .headerr input[type="submit"]{
+    color: white;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    background-color: #69a74e;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    border: 1px solid;
+    text-align: center;
+    padding: 7px 40px;
+    font-weight: 400;
+    margin: 1px;
+}
+.headerr input[type="submit"]:hover{
+  background: blue;
+  color: #fff;
+}
+.last a {
+    text-decoration: none;
+    font-weight: 600;
+    margin:1px;
+
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.faisal label{
+  width: 40%;
+  font-size: 25px;
+  font-weight: 400;
+  color:#fff;
+  border : 1px solid green;
+  background:blue;
+}
+.faisal label:hover{
+  background: green;
+  color:yellow;
+  padding-left: 2px 6px;
+  margin-bottom: 5px;
+}
